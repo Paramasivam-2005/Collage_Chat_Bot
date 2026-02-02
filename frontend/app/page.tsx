@@ -1,7 +1,10 @@
-import Test from "@/component/test";
+import { AskInput } from "@/component/AskInput";
+
 
 export default function Home() {
   return (
-    <Test/>
+    <>
+    <AskInput/>
+    </>
   )
 }
